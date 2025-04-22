@@ -12,4 +12,3 @@
 
 # print("La multiplicación es: ", n1*n2)
 
-for i 

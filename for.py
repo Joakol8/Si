@@ -3,7 +3,7 @@ clave = 1234
 
 
 
-for i in range(3):
+for i in range(3, -1, -1):
 
     password = int(input("Ingrese la contraseña:"))
 
@@ -11,4 +11,4 @@ for i in range(3):
         print("Bienvenido al sistema")
         break
     else:
-        print(f"Clave invalida. Llevas {i} intentos.")
+        print(f"Clave invalida. Quedan {i} intentos.")
